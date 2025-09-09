@@ -21,3 +21,4 @@ def send_welcome(message):
 print("Бот начал работу! Он теперь всегда онлайн!")
 bot.infinity_polling()
 
+
