@@ -16,9 +16,10 @@ keyboard.add(btn1, btn2, btn3, btn4)
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-    bot.send_message(message.chat.id, "Привет! :", reply_markup=keyboard)
+    bot.send_message(message.chat.id, "Привет!:", reply_markup=keyboard)
 
 print("Бот начал работу! Он теперь всегда онлайн!")
 bot.infinity_polling()
+
 
 
