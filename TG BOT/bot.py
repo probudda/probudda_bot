@@ -1,7 +1,3 @@
-import telebot
-from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, WebAppInfo
-
-# ВСТАВЬ СЮДА СВОЙ ТОКЕН! Скопируй его из @BotFather
 import os
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, WebAppInfo
